@@ -1,4 +1,13 @@
+.listTitle {
+ 
+ margin-left: 15%;
+ 
+}
 
+.signUpLink{
+ margin-left: 15%;
+ margin-top: 10%;	
+}
 .selectAreaBody {
   display: flex;
   flex-direction: column;
