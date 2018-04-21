@@ -9,7 +9,7 @@ var longitude;
 var marker;
 var map;
 // initialize Platform
-var platform = new H.service.Platform({'app_id': 'TkZ5D3cR7A0TNOTm2YI6', 'app_code': 'KUbzQcWdvzlcVJrFSQabLQ'});
+var platform = new H.service.Platform({'app_id': 'krQyFinwdjipbxxLuvkM', 'app_code': '7bXg_VCHttf9f9Am0ptjwg'});
 // Obtain the default map types from the platform object:
 var defaultLayers = platform.createDefaultLayers();
 // Instantiate (and display) a map object:
@@ -25,7 +25,7 @@ function getLocation() {
 function showPosition(position) {
   latitude = position.coords.latitude;
   longitude = position.coords.longitude;
-  var map = new H.Map(document.getElementById('hereMap'), defaultLayers.normal.map, {
+  var map = new H.Map(document.getElementById('map'), defaultLayers.normal.map, {
     zoom: 10,
     center: {
       lat: latitude,
