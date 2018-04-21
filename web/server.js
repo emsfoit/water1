@@ -5,7 +5,8 @@ const server = express();
 server.use(express.static(__dirname + `/public`));
 
 server.get('/', function(req, res) {
-    (res.sendFile('index.html'));
+  console.log(__dirname);
+    res.sendFile(__dirname + '/public/list.html');
 });
 
 
