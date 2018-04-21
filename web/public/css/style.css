@@ -1,9 +1,4 @@
-body,html {
-  height: 100%;
-  width: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 .selectAreaBody {
   display: flex;
   justify-content: center;
@@ -40,7 +35,7 @@ body,html {
 	margin-right:auto;
 	margin-left: auto;
 
-	background: #707085;
+	background: #ffffff;
 	width: 320px;
     padding: 10px;
     border: 5px solid gray;
@@ -54,7 +49,7 @@ body,html {
 	margin-right:auto;
 	margin-left: auto;
 
-	background: #707085;
+	background: #ffffff;
 	width: 320px;
     padding: 10px;
     border: 5px solid gray;
@@ -96,16 +91,22 @@ h4 {
 	font-family: 'Mogra', cursive;
 }
 
+.img_2 {
+	width: 400px;
+	height:150px;
+	padding-top: 12px;
+	
+}
 
 .header {
-    background-color : #494b60;
+    background-color : #e7edf1;
     color:#f7f7eb;
     font-family: 'Pathway Gothic One', sans-serif;
 
 }
 
 .left_con{
-    background-color :#707085 ;
+  
     font-family: 'Pathway Gothic One', sans-serif;
 
 }
