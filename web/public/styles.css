@@ -5,3 +5,23 @@ body,html {
     padding: 0;
 
 }
+
+
+.areaSelectFull {
+
+  background-image: url('./assets/areaSelect.png');
+  background-size: contain;
+  height: 600px;
+  width: 600px;
+}
+
+
+.areaSelectChunk {
+  height: 150px;
+  width: 600px;
+}
+
+.areaSelectChunk:hover {
+  background-color: white;
+  opacity: 0.4;
+}
