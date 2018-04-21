@@ -24,7 +24,7 @@ react native, html, css, vanilla js, bootstrap, node, express, HERE mapping apis
 ## web app
 Install Node if you haven't already. cd into the web folder, install any node packages, then run node server.js
 
-##native
+## native
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 
 npm start
