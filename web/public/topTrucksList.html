@@ -8,30 +8,12 @@
     <meta name="viewport" content="initial-scale=1.0,
     width=device-width" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
 
   <body>
     <h1>The Best Trucks in your area:</h1>
-    <style>
-      table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      td,
-      th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-
-      tr:nth-child(even) {
-        background-color: #dddddd;
-      }
-    </style>
     <table>
       <tr>
         <th>Name</th>
@@ -40,7 +22,7 @@
       </tr>
       <tr>
         <td>Name 1</td>
-        <td>Location click</td>
+        <td><a href="/truckRoute">Location</a></td>
         <td>
           <i class="fas fa-check"></i>
           <i class="fas fa-dollar-sign"></i>
@@ -49,8 +31,8 @@
         </td>
       </tr>
       <tr>
-        <td>Name 1</td>
-        <td>Location click</td>
+        <td>Name 2</td>
+        <td><a href="/truckRoute">Location</a></td>
         <td>
           <i class="fas fa-check"></i>
           <i class="fas fa-dollar-sign"></i>
@@ -59,8 +41,8 @@
         </td>
       </tr>
       <tr>
-        <td>Name 1</td>
-        <td>Location click</td>
+        <td>Name 3</td>
+        <td><a href="/truckRoute">Location</a></td>
         <td>
           <i class="fas fa-check"></i>
           <i class="fas fa-dollar-sign"></i>
@@ -69,8 +51,8 @@
         </td>
       </tr>
       <tr>
-        <td>Name 1</td>
-        <td>Location click</td>
+        <td>Name 4</td>
+        <td><a href="/truckRoute">Location</a></td>
         <td>
           <i class="fas fa-check"></i>
           <i class="fas fa-dollar-sign"></i>
@@ -78,22 +60,56 @@
           <i class="fas fa-fast-forward"></i>
         </td>
       </tr>
-
+      <tr>
+        <td>Name 5</td>
+        <td><a href="/truckRoute">Location</a></td>
+        <td>
+          <i class="fas fa-check"></i>
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-exclamation-triangle"></i>
+          <i class="fas fa-fast-forward"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Name 6</td>
+        <td><a href="/truckRoute">Location</a></td>
+        <td>
+          <i class="fas fa-check"></i>
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-exclamation-triangle"></i>
+          <i class="fas fa-fast-forward"></i>
+        </td>
+      </tr>
     </table>
     <div class="key">
-      <i class="fas fa-check"></i>
-      <p>Licensed</p>
-      <i class="fas fa-dollar-sign"></i>
-      <p>Great Price</p>
-      <i class="fas fa-exclamation-triangle"></i>
-      <p>works in emergency</p>
-      <i class="fas fa-fast-forward"></i>
-      <p>fast</p>
+      <div>
+        <p>Licensed</p>
+        <i class="fas fa-check"></i>
+
+      </div>
+      <div>
+        <p>Cheap</p>
+        <i class="fas fa-dollar-sign"></i>
+
+      </div>
+      <div>
+        <p>Emergency Supplier</p>
+        <i class="fas fa-exclamation-triangle"></i>
+
+      </div>
+      <div>
+        <p>Fast</p>
+        <i class="fas fa-fast-forward"></i>
+
+      </div>
     </div>
-    <p>want to be in the best list? register <a href="/signUp">here</a></p>
-    <a href="/allTrucks">view all trucks</a>
-    <a href="/allPlants">view plants</a>
-    <a href="/truckNearMe">find trucks near me</a>
+    <p class="signUpLink">want to be in the best list?&nbsp&nbsp<a href="/signUp">register here</a> </p>
+    <div class="otherListLinks">
+      <a href="/allTrucks">view all trucks</a>&nbsp
+      <a href="/allPlants">view plants</a>&nbsp
+      <a href="/truckNearMe">find trucks near me</a>
+    </div>
+
 
   </body>
 

@@ -35,9 +35,19 @@ server.get('/allPlants', function(req, res) {
     res.sendFile(__dirname + '/public/allPlantsList.html');
 });
 
+server.get('/plantLocationMap', function(req, res) {
+  console.log(__dirname);
+    res.sendFile(__dirname + '/public/plantLocationMap.html');
+});
+
 server.get('/truckNearMe', function(req, res) {
   console.log(__dirname);
     res.sendFile(__dirname + '/public/truckNearMe.html');
+});
+
+server.get('/truckRoute', function(req, res) {
+  console.log(__dirname);
+    res.sendFile(__dirname + '/public/truckRouteMap.html');
 });
 
 server.get('/signUp', function(req, res) {
@@ -52,7 +62,7 @@ server.get('/thanks', function(req, res) {
 
 // knowledge
 
-server.get('/knowledgeMenu', function(req, res) {
+server.get('/information', function(req, res) {
   console.log(__dirname);
     res.sendFile(__dirname + '/public/knowledgeMenu.html');
 });
