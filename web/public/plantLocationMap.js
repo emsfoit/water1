@@ -1,5 +1,12 @@
+
+
+// Add the marker to the map:
+
+
+
+
 var latitude;
-var longitude
+var longitude;
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -12,14 +19,18 @@ function getLocation() {
       var defaultLayers = platform.createDefaultLayers();
 
       // Instantiate (and display) a map object:
+      var icon = new H.map.Icon('./assets/if_truck_1608963.svg');
+
+      // Create a marker using the previously instantiated icon:
+      var marker = new H.map.Marker({ lat: latitude, lng: longitude }, { icon: icon });
       var map = new H.Map(
         document.getElementById('hereMap'),
         defaultLayers.normal.map,
         {
           zoom: 11,
-          center: { lat: 31.432793, lng: 34.387282 }
+          center: { lat: latitude, lng: longitude }
         });
-
+        map.addObject(marker);
     }
 }
 
@@ -34,6 +45,10 @@ function showPosition(position) {
     var defaultLayers = platform.createDefaultLayers();
 
     // Instantiate (and display) a map object:
+    var icon = new H.map.Icon('./assets/smallTruck.png');
+
+    // Create a marker using the previously instantiated icon:
+    var marker = new H.map.Marker({ lat: latitude, lng: longitude }, { icon: icon });
     var map = new H.Map(
       document.getElementById('hereMap'),
       defaultLayers.normal.map,
@@ -41,7 +56,7 @@ function showPosition(position) {
         zoom: 11,
         center: { lat: latitude, lng: longitude }
       });
-
+map.addObject(marker);
 }
 
 
