@@ -45,7 +45,10 @@ server.get('/signUp', function(req, res) {
     res.sendFile(__dirname + '/public/signUp.html');
 });
 
-
+server.get('/thanks', function(req, res) {
+  console.log(__dirname);
+    res.sendFile(__dirname + '/public/thanks.html');
+});
 
 // knowledge
 
