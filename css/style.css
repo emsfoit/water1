@@ -1,0 +1,93 @@
+.first_link {
+	 
+    display: block;
+    width:  100%;
+    height:  100%;
+	top: 30px;
+	
+	margin-right:auto;
+	margin-left: auto;
+
+	background: #707085;
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+   
+    border-radius: 25px;
+	display:block;
+}
+.second_link {
+	top: 30px;
+	margin-top: 30px;
+	margin-right:auto;
+	margin-left: auto;
+
+	background: #707085;
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+   
+    border-radius: 25px;
+	display:block;
+	
+}
+
+
+	
+
+}
+h2 {
+font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Lora', serif;}
+h1 {
+font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+}
+div {
+	font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya', serif;   
+
+}
+h3 {
+	font-family: 'Rakkas', cursive;
+	color: #3e3f50;
+}
+h4 {
+	color: #3e3f50;
+	font-family: 'Mogra', cursive;
+}
+
+
+.header {
+    background-color : #494b60;
+    color:#f7f7eb; 
+    font-family: 'Pathway Gothic One', sans-serif;
+	
+}
+
+.left_con{
+    background-color :#707085 ;
+    font-family: 'Pathway Gothic One', sans-serif;
+    
+}
+.right_con{
+    background-color :#ffffff;
+   font-family: 'Pathway Gothic One', sans-serif;
+}
+@media only screen and (min-width : 800px) {
+    .second_link{
+		margin-top:0;
+		margin-left:12%;
+    }
+
+    .first_link[class*="col-"] {
+       margin-left:12%;
+    }
+}
