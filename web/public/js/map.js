@@ -56,6 +56,8 @@ function showPosition(position) {
 }
 
 
+
+
 getLocation()
 
 // Add the marker to the map:
