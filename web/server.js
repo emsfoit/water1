@@ -34,9 +34,9 @@ server.get('/truckNearMe', function(req, res) {
     res.sendFile(__dirname + '/public/truckNearMe.html');
 });
 
-server.get('/', function(req, res) {
+server.get('/signUp', function(req, res) {
   console.log(__dirname);
-    res.sendFile(__dirname + '/public/selectArea.html');
+    res.sendFile(__dirname + '/public/signUp.html');
 });
 
 server.get('/', function(req, res) {
